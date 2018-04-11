@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BenTourist - Guia de viajes</title>
+
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+
+<style type="text/css">
+
+</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div id="header">
+			<div id="logo" style="width: 20%;">
+				<img src="img/logo.png">
+			</div>
+
+			<div id="menu">
+				<nav>
+					<ul>
+						<li><a href="#"> Inicio </a></li>
+						<li><a href="#">Que te interesa de nosotros</a></li>
+						<li><a href="#">Planes</a></li>
+						<li><a href="#">Consejos</a></li>
+						<li><a href="#">Contacto</a></li>
+						<li><label>Buscar</label></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="carrousel">
+			<img src="img/destino1.jpg" class="miSlide">
+			<img src="img/destino2.jpg" class="miSlide">
+			<img src="img/destino3.jpg" class="miSlide">
+			<img src="img/destino4.jpg" class="miSlide">
+			<img src="img/destino5.jpg" class="miSlide">
+			<img src="img/destino6.jpg" class="miSlide">
+		</div>
+		<hr style="width: 100%">
+		<div class="row">
+			<div class="col">
+				<h2>Escapadas</h2>
+				<img style="width: 100%" src="img/destino1.jpg"/>
+			</div>
+			<div class="box col">
+				<h2>Negocios</h2>
+				<img src="img/destino2.jpg"/>
+			</div>
+			<div class="box col">
+				<h2>Familia</h2>
+				<img src="img/destino3.jpg"/>
+			</div>
+			<div class="box col">
+				<h2>Ocio</h2>
+				<img src="img/destino4.jpg"/>
+			</div>
+		</div>
+		<div>
+			<div style="border-color: black,50%;">
+				<form>
+					Elije destino.
+				</form>
+				<p>Por llamada ajax creamos un formulario en el que podamos elejir un destino, al elejir destino nos dirije a otra pagina donde mostrará fotos del destino, el tiempo que hace, descripción del lugar y comprar paquete de viaje.
+					<br>
+				Al dar la opcion de comprar paquete debemos de crear una seccion donde se muestre las fechas disponibles, elegir hotel y numero de personas.
+
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/carrousel.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
